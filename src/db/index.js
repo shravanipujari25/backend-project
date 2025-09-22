@@ -9,7 +9,7 @@ export const connectDB=async()=>{
 catch(error){
     console.log("MONGODB Connection Error",error);
     throw error;
-    process.exit(1);
+   // process.exit(1);
 }
 }
 
